@@ -1,6 +1,6 @@
 {
   "name": "@vypham0209/nestjs-common",
-  "version": "3.0.6",
+  "version": "3.0.10",
   "description": "Nestjs common function for my project",
   "main": "dist/index.js",
   "repository": {

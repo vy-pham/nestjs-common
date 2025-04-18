@@ -56,14 +56,15 @@ declare global {
       unknown,
       {},
       I & {
-        _id: Types.ObjectId;
+        _id: DataId;
       }
     > &
       Omit<
         I & {
-          _id: Types.ObjectId;
+          _id: DataId;
+          __v: number;
         } & Required<{
-            _id: Types.ObjectId;
+            _id: DataId;
           }>,
         never
       >,
