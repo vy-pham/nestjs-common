@@ -1,6 +1,6 @@
 {
   "name": "@vypham0209/nestjs-common",
-  "version": "3.0.10",
+  "version": "3.0.13",
   "description": "Nestjs common function for my project",
   "main": "dist/index.js",
   "repository": {
@@ -27,6 +27,7 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
     "dotenv": "^16.4.7",
+    "graphql": "^16.10.0",
     "mongoose": "^8.10.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.7.1"
